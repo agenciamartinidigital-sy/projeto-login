@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+/* 
+Dispositivos móveis:
+360px, 375px, ou 393px de largura. 
+Tablets:
+768px ou 810px de largura. 
+Laptops/Desktops:
+1366px, 1440px, ou 1920px de largura. 
+*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
