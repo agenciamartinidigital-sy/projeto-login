@@ -37,6 +37,39 @@ Small devices (portrait tablets and large phones, 600px and up)
         width: 70%;
     }
 
+    form > input[type="submit"] {
+    text-align: center;
+    color: white;
+    display: block;
+    background-color: #328dd3;
+    font-size: 1em;
+    border: none;
+    padding: 10px;
+    margin: 5px 0px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.39);
+    cursor: pointer;
+}
+
+form > input[type="submit"]:hover{
+    background-color: #1c5077;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.5);
+}
+
+form > a.botao {
+    text-align: center;
+    color: white;
+    display: inline-block;
+    background-color: #328dd3;
+    font-size: 1em;
+    border: none;
+    padding: 10px;
+    margin: 5px 0px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.39);
+    cursor: pointer;
+}
+
 }
 
 @media screen and (min-width: 992px) {
@@ -59,4 +92,3 @@ Small devices (portrait tablets and large phones, 600px and up)
         width: 70%;
     }
 
-}
