@@ -36,6 +36,7 @@ Small devices (portrait tablets and large phones, 600px and up)
         float: right;
         width: 70%;
     }
+
 }
 
 @media screen and (min-width: 992px) {
@@ -57,4 +58,5 @@ Small devices (portrait tablets and large phones, 600px and up)
         float: left;
         width: 70%;
     }
+
 }
