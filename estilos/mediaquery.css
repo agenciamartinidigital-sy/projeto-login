@@ -18,6 +18,10 @@ Small devices (portrait tablets and large phones, 600px and up)
 */
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
+
+    body{
+        background-image: linear-gradient(to top, #1a1cfd, #c532d3);
+    }
     section#login {
         width: 80vw;
 
@@ -35,6 +39,10 @@ Small devices (portrait tablets and large phones, 600px and up)
 }
 
 @media screen and (min-width: 992px) {
+    body {
+        background-image: linear-gradient(to top, #1a1cfd, #c532d3);
+    }
+
     section#login {
         width: 992px;
     }
