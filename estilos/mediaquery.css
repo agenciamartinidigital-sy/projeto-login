@@ -18,7 +18,7 @@ Small devices (portrait tablets and large phones, 600px and up)
 */
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
-    #login {
+    section#login {
         width: 80vw;
 
     }
@@ -35,11 +35,11 @@ Small devices (portrait tablets and large phones, 600px and up)
 }
 
 @media screen and (min-width: 992px) {
-    #login {
+    section#login {
         width: 992px;
     }
 
-    section#login > div#imagem {
+    #login > div#imagem {
         float: left;
         width: 50%;
         height: 100%;
